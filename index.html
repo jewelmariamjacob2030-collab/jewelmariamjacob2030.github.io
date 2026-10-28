@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#171329">
+  <meta name="description" content="A fantasy-inspired portfolio for a curious creator, reader, and maker of things.">
+  <title>The Enchanted Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="starfield" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Go to home"><span class="brand-mark">✦</span> THE SPELLBOOK</a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">The Story</a>
+      <a href="#work">Artifacts</a>
+      <a href="#shelf">Bookshelf</a>
+      <a href="#contact" class="nav-cta">Send a Raven <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="sparkle">✧</span> A PORTFOLIO FROM ANOTHER REALM</p>
+        <h1>Every great story<br>begins with <em>a little magic.</em></h1>
+        <p class="hero-intro">Hello, traveler. I’m <strong>Jewel Mariam Jacob</strong> — a curious creator, devoted bookworm, and collector of ideas from worlds that exist just beyond the page.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore my realm <span>✦</span></a>
+          <a class="text-link" href="#about">Read my story <span>→</span></a>
+        </div>
+        <div class="hero-note"><span class="note-icon">☾</span><span>Currently wandering through: <strong>an enchanted library</strong></span></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative fantasy illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="moon">☾</div>
+        <div class="book book-back"></div>
+        <div class="book book-front">
+          <div class="book-border">
+            <span class="book-star">✧</span><span class="book-title">THE<br>WILD<br>UNKNOWN</span>
+            <span class="book-flourish">— ✦ —</span>
+          </div>
+        </div>
+        <span class="floating f1">✦</span><span class="floating f2">✧</span>
+        <span class="floating f3">☽</span><span class="floating f4">✴</span>
+        <div class="art-caption">A mind full of worlds <span>✦</span></div>
+      </div>
+      <a href="#about" class="scroll-cue"><span></span> SCROLL TO DISCOVER</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">01 / THE PERSON BEHIND THE PAGES</p>
+        <h2>A little about <em>the dreamer</em></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-emblem"><div class="emblem-ring"><span>❧</span><strong>IMAGINE<br>CREATE<br>DISCOVER</strong><span>❧</span></div><span class="emblem-star">✦</span></div>
+        <div class="about-copy">
+          <p class="lead">I believe the best ideas are found where curiosity meets a touch of wonder.</p>
+          <p>I am just a computer science student with a passion for creativity and storytelling. Whether I’m building something new, exploring a creative challenge, or getting lost in ancient fantasies and impossible worlds, I’m happiest when I’m learning and imagining what could be.</p>
+          <p>This little corner of the internet is my personal grimoire: a place to gather my work, share what inspires me, and keep track of the adventures still to come.</p>
+          <div class="trait-list"><span>✧ Curious mind</span><span>✧ Creative spirit</span><span>✧ Lifelong reader</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work">
+      <div class="section-heading centered">
+        <p class="eyebrow">02 / SPELLS I’VE BEEN WORKING ON</p>
+        <h2>Selected <em>artifacts</em></h2>
+        <p class="section-subtitle">A few projects pulled from the satchel. Replace these examples with your own work and achievements.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-visual visual-rose"><span class="visual-symbol">❋</span><span class="visual-label">PROJECT I</span></div>
+          <div class="project-info"><div class="project-meta"><span>CREATIVE DESIGN</span><span>✦ 01</span></div><h3>The Moonlit Journal</h3><p>A thoughtful digital journal concept for collecting ideas, memories, and little everyday wonders.</p><a href="#contact" class="project-link">Discover the project <span>↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-teal"><span class="visual-symbol">⌘</span><span class="visual-label">PROJECT II</span></div>
+          <div class="project-info"><div class="project-meta"><span>WEB EXPERIENCE</span><span>✦ 02</span></div><h3>The Arcane Archive</h3><p>A library-inspired website concept where stories, notes, and discoveries find a home.</p><a href="#contact" class="project-link">Discover the project <span>↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-gold"><span class="visual-symbol">♧</span><span class="visual-label">PROJECT III</span></div>
+          <div class="project-info"><div class="project-meta"><span>PERSONAL PROJECT</span><span>✦ 03</span></div><h3>Field Guide to Wonder</h3><p>A small collection of inspiration, observations, and creative experiments from daily life.</p><a href="#contact" class="project-link">Discover the project <span>↗</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section bookshelf-section" id="shelf">
+      <div class="section-heading">
+        <p class="eyebrow">03 / MY MOST TRUSTED PORTALS</p>
+        <h2>The enchanted <em>bookshelf</em></h2>
+        <p class="section-subtitle">Every book is a door. These are a few kinds of worlds I love stepping into.</p>
+      </div>
+      <div class="shelf-grid">
+        <article class="shelf-card"><div class="shelf-icon">♜</div><div><h3>Epic Fantasy</h3><p>Ancient kingdoms, impossible quests, and heroes who find courage along the way.</p></div><span class="shelf-number">01</span></article>
+        <article class="shelf-card"><div class="shelf-icon">☽</div><div><h3>Magical Realism</h3><p>A little enchantment hidden inside the ordinary corners of everyday life.</p></div><span class="shelf-number">02</span></article>
+        <article class="shelf-card"><div class="shelf-icon">⚝</div><div><h3>Myth & Folklore</h3><p>Old legends, mysterious creatures, and stories passed from one world to another.</p></div><span class="shelf-number">03</span></article>
+      </div>
+      <div class="quote-panel"><span class="quote-mark">“</span><p>Somewhere, something incredible is waiting to be known.</p><span class="quote-credit">— CARL SAGAN</span></div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-orb">✧</div>
+      <p class="eyebrow">04 / THE NEXT CHAPTER</p>
+      <h2>Have a quest in mind?</h2>
+      <p class="contact-intro">Have a project, an idea, or a book recommendation worthy of a map? My inbox is open.</p>
+      <a class="button button-primary" href="mailto:jewelj8654@gmail.com">Send a raven <span>➤</span></a>
+      <p class="contact-small">Replace jewelj8654@gmail.com wi.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#home"><span class="brand-mark">✦</span> THE SPELLBOOK</a>
+    <p>Made with curiosity, moonlight, and too many books.</p>
+    <a href="#home" class="back-top">Back to the stars ↑</a>
+    <span class="copyright">© <span id="year"></span> Your Name</span>
+  </footer>
+</body>
+</html>
